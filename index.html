@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    function check() {
+      var name = document.querySelector(".name");
+      if (!name) {
+        alert(" chua nhap ten");
+        name.focus();
+        return false;
+      } else if (Number(name)) {
+        alert(" ten chua ky tu");
+        name.focus();
+        return false;
+      }
+      return true;
+    }
+  </script>
+  <body>
+    <form action="" method="post">
+      <input type="text" id="name" name="name" placeholder="nhap ten" />
+      <input type="text" id="age" name="age" placeholder="nhap tuoi" />
+      <input type="submit" name="submit" value="submit" onclick="check()" />
+    </form>
+  </body>
+</html>
