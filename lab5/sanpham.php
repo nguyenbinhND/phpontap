@@ -22,7 +22,7 @@
     <input  type='hidden' name='img' value="https://images.unsplash.com/photo-1626379625260-7111605463e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"> 
     <input  type='hidden' name='tensp' value="John Doe"> 
       <input  type='hidden' name='gia' value="17000"> 
-      <input  type='hidden' name='id' value="3"> 
+      <input  type='hidden' name='id' value="1"> 
       <input  name='cart' type='submit' class="btn btn-primary" value='dat hang'>
     </div>
     </form>
@@ -42,7 +42,7 @@
     <input  type='hidden' name='img' value="https://plus.unsplash.com/premium_photo-1669644856868-6613f6683346?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"> 
     <input  type='hidden' name='tensp' value="John Doe"> 
       <input  type='hidden' name='gia' value="17000"> 
-      <input  type='hidden' name='id' value="3"> 
+      <input  type='hidden' name='id' value="2"> 
       <input  type='submit' name='cart' class="btn btn-primary" value='dat hang'>
     </div>
     </form>

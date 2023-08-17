@@ -82,16 +82,18 @@ border-radius: 4px;
   </tr>
 
   <?php 
+     $i=0;
     foreach ($_SESSION['cart'] as $sp ) {
         echo '<tr>
-        <td>'.$sp[0].'</td>
+        <td>'.($i).'</td>
         <td>  <img src= '.$sp[1].' style="width:100%"> </td>
         <td>'.$sp[2].'</td>
         <td>'.$sp[3].'</td>
         <td>'.$sp[4].'</td>
         <td>'.$sp[4] * $sp[3].'</td>
-        <td><button>X</button></td>
-      </tr>';
+       <td> <a href="deletecart.php?id='.$i.'">X</a></td>
+      </tr>'; 
+      $i++;
     }
   ?>
 </table>
